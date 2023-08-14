@@ -1,0 +1,8 @@
+/* TaskTable.css */
+
+/* Remove the grey background color and adjust padding */
+.fw-normal th, .fw-normal td {
+    background-color: white;
+    padding: 10px;
+  }
+  

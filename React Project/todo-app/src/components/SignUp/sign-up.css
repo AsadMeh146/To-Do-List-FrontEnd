@@ -1,0 +1,28 @@
+.signUpContainer
+{
+    /* height: 650px; */
+    width: 550px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    /* margin-left: 50px; */
+    /* margin-right: 550px; */
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.myRow
+{
+    padding-left: 50px;
+}
+
+.error
+{
+    color: red;
+    max-width: 220px;
+    margin-top:5px;
+    font-size: 12px;
+}
+.divider
+{
+    border: 1px solid;
+}
