@@ -11,7 +11,7 @@ export default function SignIn({ onLogin }) {
   // const isUserLogin = true;
   const handleLogin = (event) => {
     event.preventDefault();
-    if(inputValue.email === "asm789987@gmail.com" && inputValue.password === "Asaddar123321@")
+    if(inputValue.email === "asm789987@gmail.com" && inputValue.password === "Asaddar123321")
     {
       onLogin();
       navigate('/home');
