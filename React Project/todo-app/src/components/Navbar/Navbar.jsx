@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Navbar({ isLoggedIn, isLogIn, onLogout }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="/about">
         <img
           src={logo}
           width="30"
@@ -15,7 +15,7 @@ export default function Navbar({ isLoggedIn, isLogIn, onLogout }) {
           className="app-logo"
         />
       </a>
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="/about">
         TaskTracker
       </a>
       <button
